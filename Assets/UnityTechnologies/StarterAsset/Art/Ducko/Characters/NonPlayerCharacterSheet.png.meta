@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: 1de25eb2ec0622142aec28bcc6a322a1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271239
+  packageName: 'Unity Learn | 2D Beginner: Adventure Game Complete Project | URP'
+  packageVersion: 1.1
+  assetPath: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Characters/NonPlayerCharacterSheet.png
+  uploadId: 701356
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -67,7 +74,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 1
@@ -80,7 +87,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +100,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,11 +113,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MarthaSheet_0
+      name: NonPlayerCharacterSheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,18 +140,19 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeca68457873ff7438f386d0ae4a98b9
-      internalID: -333191600
+      spriteID: 25c00849b845a4c0484d693d1ba04fe6
+      internalID: -346632924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarthaSheet_1
+      name: NonPlayerCharacterSheet_1
       rect:
         serializedVersion: 2
         x: 256
@@ -141,18 +162,19 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 473e3cd456a83924c9039906d8f72386
-      internalID: -300337328
+      spriteID: 3635e143cb2b34b34920e1723315560a
+      internalID: 1859094108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarthaSheet_2
+      name: NonPlayerCharacterSheet_2
       rect:
         serializedVersion: 2
         x: 0
@@ -162,18 +184,19 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b4b1954adc90a045b71537a142fbd88
-      internalID: -1345050003
+      spriteID: 38c73cffa29e34fa882f541ed0c91679
+      internalID: -859308640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MarthaSheet_3
+      name: NonPlayerCharacterSheet_3
       rect:
         serializedVersion: 2
         x: 256
@@ -183,17 +206,19 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4726d8928574fa346a8ffe9ce4661f0d
-      internalID: 979434604
+      spriteID: 5a5b2a73a184a4b1eabf8dd0a44d3b05
+      internalID: 743135895
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -203,20 +228,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      MarthaSheet_0: -333191600
-      MarthaSheet_1: -300337328
-      MarthaSheet_2: -1345050003
-      MarthaSheet_3: 979434604
+      NonPlayerCharacterSheet_0: -346632924
+      NonPlayerCharacterSheet_1: 1859094108
+      NonPlayerCharacterSheet_2: -859308640
+      NonPlayerCharacterSheet_3: 743135895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 271239
-  packageName: 'Unity Learn | 2D Beginner: Adventure Game Complete Project | URP'
-  packageVersion: 1.1
-  assetPath: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Characters/NonPlayerCharacterSheet.png
-  uploadId: 701356
